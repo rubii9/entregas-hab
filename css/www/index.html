@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Página web de vacas</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Vacas</h1>
+
+      <nav>
+        <!--Zona de navegacion donde tenemos varios enlaces-->
+        <ul>
+          <li><a href="">Curiosidades sobre vacas</a></li>
+          <li><a href="">Instalaciones para vacas</a></li>
+          <!--A este enlace se le modificaria para dar apariencia de botón-->
+          <li><a href="">Comprar</a></li>
+        </ul>
+      </nav>
+
+      <!--Esta imagen probablemente sea un background de la cabecera-->
+      <img
+        src="/imagenes/vacaportada.jpg"
+        alt="Imagen de una vaca de la portada"
+      />
+    </header>
+
+    <main>
+      <section id="principal">
+        <h2>Razas de vacas</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          tempor diam at pellentesque laoreet. Sed dapibus sem tellus, non
+          efficitur orci molestie mollis. Morbi venenatis gravida ex, eu
+          pharetra urna volutpat at. Curabitur eget faucibus magna. Integer a
+          justo ligula. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quidem, libero explicabo, rerum incidunt distinctio commodi
+          consectetur voluptatem error inventore natus reiciendis saepe iste
+          atque perspiciatis aliquid placeat beatae necessitatibus tenetur.
+        </p>
+        <p>
+          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
+          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          quia aliquid cupiditate expedita, ea porro, iste animi autem delectus
+          officiis commodi iusto quam voluptas ipsa sint sunt consequatur qui
+          laboriosam!
+        </p>
+        <p>
+          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
+          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis,
+          sapien sit amet hendrerit ullamcorper, risus magna venenatis elit, nec
+          condimentum nisl massa id ex. Sed fermentum orci nec erat cursus
+          cursus. Integer bibendum lacus molestie metus iaculis, ac hendrerit
+          diam ullamcorper. Mauris placerat arcu pellentesque imperdiet
+          pellentesque. Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Animi, nam perspiciatis. Est molestiae earum autem culpa quos
+          dignissimos accusamus dolor, modi quasi dicta officiis ratione unde
+          esse magni sed! Incidunt!
+        </p>
+      </section>
+
+      <section id="opciones">
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <img src="/imagenes/vacapinta.jpg" alt="Imagen de vaca pinta" />
+              </th>
+              <th>
+                <img src="/imagenes/vacarubia.jpg" alt="Imagen de vaca rubia" />
+              </th>
+              <th>
+                <img src="/imagenes/vacasuiza.jpg" alt="Imagen de vaca suiza" />
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Vaca pinta</th>
+              <th>Vaca rubia</th>
+              <th>Vaca suiza</th>
+            </tr>
+
+            <tr>
+              <td>
+                Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus
+                magna venenatis elit, nec condimentum nisl massa id ex. Sed
+                fermentum orci nec erat cursus cursus
+              </td>
+              <td>
+                Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus
+                magna venenatis elit, nec condimentum nisl massa id ex. Sed
+                fermentum orci nec erat cursus cursus
+              </td>
+              <td>
+                Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus
+                magna venenatis elit, nec condimentum nisl massa id ex. Sed
+                fermentum orci nec erat cursus cursus
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <!--Al esta parte se le daria formato de negrita y se centraria-->
+            <tr>
+              <td><a href="">Comprar</a></td>
+              <td><a href="">Comprar</a></td>
+              <td><a href="">Comprar</a></td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Sugerencias y solicitudes de información</h3>
+      <form>
+        <fieldset>
+          <legend>Datos necesarios:</legend>
+          <ul>
+            <li>
+              <label for="user">Nombre y apellidos </label>
+              <input type="text" name="user" id="user" />
+              <label for="adress">Dirección </label>
+              <input type="text" name="user" id="adress" />
+            </li>
+
+            <li>
+              <label for="provincia">Provincia</label>
+              <select name="provincia" id="provincia" required>
+                <option value="0"></option>
+                <option value="1">Lugo</option>
+                <option value="2">A Coruña</option>
+                <option value="3">Pontevedra</option>
+                <option value="4">Ourense</option>
+              </select>
+            </li>
+            <li>
+              <label for="coments">Comentarios</label>
+              <!--Esto sería incorrecto, para dar formato usariamos CSS-->
+              <p></p>
+              <textarea name="bio" id="coments"></textarea>
+            </li>
+            <li>
+              <label for="letter">Receive newsletter?</label>
+              <input type="checkbox" name="letter" id="letter" value="yes" />
+            </li>
+          </ul>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
