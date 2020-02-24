@@ -177,7 +177,7 @@ select {
     padding-left: 0.5rem;
   }
 
-  main p {
+  main p.texto {
     columns: 2;
   }
   main ul {
