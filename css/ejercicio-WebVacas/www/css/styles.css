@@ -19,11 +19,11 @@ body {
 }
 
 header {
-  background-image: url(/imagenes/vacaportada.jpg);
-  background-position: top center;
+  background-image: url('/imagenes/prueba.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  min-height: 30vh;
+  min-height: 250px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -166,7 +166,7 @@ select {
 @media (min-width: 700px) {
   header {
     font-size: 2rem;
-    min-height: 60vh;
+    min-height: 400px;
   }
 
   header ul {
@@ -175,6 +175,10 @@ select {
   header ul li a {
     font-size: 1rem;
     padding-left: 0.5rem;
+  }
+
+  main p {
+    columns: 2;
   }
   main ul {
     align-items: flex-start;
@@ -194,7 +198,4 @@ select {
   textarea {
     padding: 2rem;
   }
-}
-
-@media (min-width: 1100px) {
 }
