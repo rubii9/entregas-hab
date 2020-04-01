@@ -40,6 +40,6 @@ function calculate() {
     .then((data) => data.json())
     .then((data) => {
       const rate = data.rates[to_currency];
-      result.value = `${input.value} ${coin1.value} son ${(input.value * rate).toFixed(2)} ${coin2.value}`;
+      result.value = `${input.value} ${from_currency} son ${(input.value * rate).toFixed(2)} ${to_currency}`;
     });
 }
