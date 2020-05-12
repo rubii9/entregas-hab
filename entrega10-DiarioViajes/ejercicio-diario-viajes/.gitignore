@@ -1,3 +1,4 @@
 diary.db
 uploads
-.env
+*.env
+*.env.example
