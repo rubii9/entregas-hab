@@ -14,3 +14,6 @@ Servidor web regular
 Hacer un servidor web que responda a la url / con un texto que ponga "Hola" pero sólo por la mañana, el resto del día debería devolver una página de error 404.
 
 
+## [Pokédex](https://github.com/rubii9/entregas-hab/tree/master/entrega9-EjerciciosBackend/Pokedex)
+
+Realiza una Appi que simule una pokedex. Buscar un pokemon,mostrar resultados y mostrar ficha del pokemon seleccionado
