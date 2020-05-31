@@ -9,7 +9,7 @@ Equipo María: 62, 34, 55.
 Equipo Paula: 35, 60, 59.
 Equipo Rebeca: 40, 39, 63.
 
-Ejercicio 3
+#Ejercicio 3
 
 Crea un programa que simule el comportamiento de un dado. El programa debe ir almacenando los valores de cada tirada en una variable, y cuando llegue a 50 puntos o más, debe finalizar su ejecución mostrando un mensaje tal que:
 
