@@ -22,6 +22,9 @@ OPCIONALES:
 ## Project setup
 ```
 npm install
+
+
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development
