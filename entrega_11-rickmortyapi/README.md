@@ -1,6 +1,28 @@
-# rickmortyapi
+# rickmortyapi- Rubén Pérez
 
 Here u can see the web [webapp](https://rickmortyrubii.netlify.app)
+
+
+## ENTREGA 11: FRONT
+
+Crea una web usando la appi de rick&morty con los siguientes requisitos:
+
+- Titulo de navegador personalizado
+- Código optimizado
+- Logo de Rick&Morty	
+- Página de About con contenido real
+- Buscador funcional de personajes (id,nombre,estado y género)
+- Comentar el código
+
+OPCIONALES:
+
+- Responsive
+- Clases dinamicas para mostrar estado en rojo(muerto),verde(vivo) o naranja(desconocido)
+- Favicon 
+
+
+
+
 ## Project setup
 ```
 npm install
