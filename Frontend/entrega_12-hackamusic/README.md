@@ -1,4 +1,4 @@
-# hackamusic
+# Hackamusic - Rubén Pérez
 
 Here you can see the web: [web](https://hackamusic-rubii.netlify.app/#/)
 
